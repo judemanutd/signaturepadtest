@@ -6,17 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.github.gcacace.signaturepad.views.SignaturePad
-        android:id="@+id/signature_pad"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        app:penColor="@android:color/black"
-        tools:context=".SignatureActivity" />
-
     <Button
         android:id="@+id/save_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save" />
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:penColor="@android:color/black"
+        tools:context=".SignatureActivity" />
 
 </LinearLayout>
